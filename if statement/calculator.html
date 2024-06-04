@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+    const firstvalue=+prompt("enter first value");
+    const operator=prompt("emter operator like..(+,-,*,/)")
+    const secondvalue=+prompt("enter second value")
+    
+
+    let calvalue =0;
+    if(operator== "+"){
+        calvalue = firstvalue + secondvalue;
+    }else if (operator == "-"){
+        calvalue = firstvalue - secondvalue;
+    }else if(operator == "*"){
+        calvalue = firstvalue * secondvalue;
+    }else if(operator == "/"){
+        calvalue = firstvalue / secondvalue;
+    }else{
+        prompt("enter a valid operator")
+    }
+
+    alert(`the result of ${firstvalue} ${operator}  ${secondvalue} is = ${calvalue} `)
+    </script>
+</body>
+</html>

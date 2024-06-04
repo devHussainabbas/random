@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week</title>
+</head>
+<body>
+ 
+    
+    <script>
+        const number =prompt("enter a number")
+
+let day ="";
+let err="";
+if(number==1){
+    day ="monday";
+    // console.log("number one is",day);
+
+}else if(number==2){
+    day ="tuesday";
+}else if(number==3){
+    day ="wednesday";
+}else if(number==4){
+    day ="thrusday";
+}else if(number==5){
+    day ="friday";
+}else if(number==6){
+    day ="saturday";
+}else if(number==7){
+    day ="sunday";
+}else if(number=>8 && number<=0){
+    err="error is found";
+}
+else{
+    alert="not found";
+}
+const weeksname= `${day}`;
+const errrr= `${err}`; 
+console.log(errrr);
+console.log(weeksname);
+    </script>
+</body>
+</html>
